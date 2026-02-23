@@ -123,6 +123,72 @@ function App() {
 
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold text-white text-center mb-12">Casos de Uso</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
+              <div className="text-5xl mb-4 text-center">🛍️</div>
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">E-Commerce</h3>
+              <p className="text-gray-300 text-lg">
+                Crea tiendas online completas con carrito de compras, procesamiento de pagos, 
+                gestión de inventario y autenticación de usuarios. Todo con escalabilidad automática 
+                para manejar picos de tráfico durante ventas especiales.
+              </p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
+              <div className="text-5xl mb-4 text-center">📱</div>
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Apps Móviles</h3>
+              <p className="text-gray-300 text-lg">
+                Desarrolla aplicaciones móviles nativas para iOS y Android con backend compartido. 
+                Incluye notificaciones push, sincronización offline, y almacenamiento en la nube 
+                para archivos multimedia.
+              </p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
+              <div className="text-5xl mb-4 text-center">📊</div>
+              <h3 className="text-2xl font-bold text-white mb-4 text-center">Dashboards</h3>
+              <p className="text-gray-300 text-lg">
+                Construye paneles de control en tiempo real con visualización de datos, 
+                análisis avanzados y reportes personalizados. Conecta múltiples fuentes de datos 
+                y actualiza la información automáticamente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-12 border border-white/20 shadow-2xl">
+            <h2 className="text-4xl font-bold text-white mb-8 text-center">¿Por qué elegir AWS Amplify?</h2>
+            <div className="space-y-6 text-gray-200 text-lg">
+              <p className="leading-relaxed">
+                <strong className="text-white">Productividad sin precedentes:</strong> AWS Amplify elimina la complejidad 
+                de configurar y mantener infraestructura backend. Los desarrolladores pueden enfocarse en crear 
+                experiencias de usuario excepcionales mientras Amplify maneja automáticamente el escalado, 
+                la seguridad y el rendimiento.
+              </p>
+              <p className="leading-relaxed">
+                <strong className="text-white">Ecosistema completo:</strong> Desde la autenticación de usuarios hasta 
+                el almacenamiento de archivos, desde APIs GraphQL hasta funciones serverless, Amplify proporciona 
+                todas las herramientas necesarias para construir aplicaciones modernas y robustas.
+              </p>
+              <p className="leading-relaxed">
+                <strong className="text-white">Despliegue continuo:</strong> Conecta tu repositorio de GitHub, GitLab 
+                o Bitbucket y obtén despliegues automáticos con cada commit. Los previews de pull requests permiten 
+                revisar cambios antes de llevarlos a producción, mejorando la calidad del código.
+              </p>
+              <p className="leading-relaxed">
+                <strong className="text-white">Costos optimizados:</strong> Paga solo por lo que usas. La arquitectura 
+                serverless de Amplify significa que no hay servidores inactivos consumiendo recursos. Escala desde 
+                cero usuarios hasta millones sin cambios en la configuración.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-4">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-white text-center mb-12">Equipo de Desarrollo</h2>
           <div className="flex justify-center gap-12 flex-wrap">
             {teamMembers.map((member, index) => (
