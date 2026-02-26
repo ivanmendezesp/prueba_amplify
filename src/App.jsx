@@ -205,7 +205,7 @@ function App() {
       </section>
 
       <footer className="py-12 text-center text-gray-400">
-        <p className="text-lg">Proyecto de demostración - AWS Amplify 2026</p>
+        <p className="text-lg">Proyecto de demostración y configuracion - AWS Amplify 2026</p>
       </footer>
 
     </div>
